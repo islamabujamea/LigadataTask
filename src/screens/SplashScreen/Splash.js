@@ -15,7 +15,7 @@ export default class Splash extends Component {
 
     async renderLoading() {
         clearInterval(this.loginInterval);
-        this.props.navigation.navigate('HomeScreen');
+        this.props.navigation.navigate('SelectOptionScreen');
 
     }
 

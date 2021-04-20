@@ -17,8 +17,6 @@ export default class Home extends Component {
                 elevation: 0,
                 shadowColor: 'transparent',
             },
-            headerLeft: () => null,
-            headerRight: () => null
         };
     };
     constructor(props) {
